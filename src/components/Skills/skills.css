@@ -1,0 +1,122 @@
+#skills {
+    overflow: hidden;
+    width: 100vh;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle {
+    font-weight: 600;
+    font-size: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem ;
+}
+.sk {
+    font-weight: 600;
+    font-size: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem ;
+
+}
+
+.skillInformation {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 8rem 8rem 15rem;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+    background: rgb(50, 50, 50);
+    
+    
+}
+
+.skillHigh {
+    padding: 1rem 1rem;
+}
+.sn {
+    color: yellow;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+
+}
+.details {
+    font-size: 0.90rem;
+    color: #EEEEEE;
+    
+    
+}
+.helloSkill {
+    font-size: 2rem;
+    
+}
+.skillName {
+    color: yellow;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.skillPara {
+    font-weight: 100;
+    font-size: 0.80rem;
+    margin-top: 0.3rem;
+    letter-spacing: 0.1rem;
+
+}
+
+.mail {
+    width: 2.90rem;
+    height: 2.90rem;
+}
+
+.skillBtn {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 0.75rem 1.75rem;
+    margin: 1rem  ;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 600;
+    margin: 2rem 3rem;
+
+}
+.skillImgbbtn {
+    width: 2rem;
+    height: 2 rem;
+    object-fit: cover;
+    margin: 0 0.15rem; 
+
+}
+.Techimg:hover {
+    
+    box-shadow: 0 0 2rem #E4E4E4;
+    border: none;
+}
+.Techimg {
+    border-radius: 0.30rem;
+    background-color: #EEEEEE;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    margin: 0.25rem auto;
+    padding: 0.50rem;
+    cursor: pointer;
+
+}
+.TechPart {
+    color: yellow;
+}
+
+.skillIcon0 {
+    
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    padding: 2rem 2rem;
+}

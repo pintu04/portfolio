@@ -1,0 +1,52 @@
+nav {
+    margin:  0 auto;
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: rgb(30, 30, 30);
+}
+.logo {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 8px;
+}
+.desctopMenuLink:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+.desctopMenuLink {
+    margin: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+.desctopMenuBtn {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:white;
+    color: black;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+.desctopMenuImg {
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: cover;
+    margin: 1rem;
+    /* padding: 0 1rem; */
+}
